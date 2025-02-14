@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/bootstrap.js"></script>
+    <style>
+      .carousel-indicators button {
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        background-color: #000;
+        border: none;
+      }
+     .carousel-caption {
+      border-top: 10px;
+      border-left: 10px;
+      border-right: 10px;
+      border-bottom: 10px;
+      border-style: groove;
+      border-color:lightblue ;
+      border-width: 30px;
+    }
+
+    b {
+      color: lightblue;
+      font-size: 30px;
+    }
+    
+    #he {
+      height: 225px;
+    }
+
+    a:hover {
+      background-color: rgb(25, 199, 199);
+    }
+      
+    .card {
+        background-color: antiquewhite;
+      }
+
+    </style>
+</head>
+<body>
+
+<div class="container-fliud">
+  <section class="row">
+     <div class="col-md-12">
+      <div class="navbar fixed-top navbar-expand-md navbar-light" style="background-color: #ddeeff;">
+        &nbsp;&nbsp;<a class="navbar-brand" href="index.html">TWILIGHT GYM</a>
+          <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#benz">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="benz">
+            <div class="navbar-nav">
+              <a href="index.html" class="nav-link">Home</a>&nbsp;&nbsp;
+              <a href="activities.html" class="nav-link">Activities</a>&nbsp;&nbsp;
+            </div>
+
+            <div class="nav-item dropdown">
+              <a href="programmes.html" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">programme</a>
+              <div class="dropdown-menu">
+                <a href="programmes.html" class="dropdown-item">Weekdays</a>
+                <a href="programmes.html" class="dropdown-item">Saturday</a>
+                <a href="programmes.html" class="dropdown-item">Sunday</a>
+              </div>
+            </div>&nbsp;&nbsp;
+
+            <form action="" class="d-flex">
+              <div class="input-group">
+                <input type="text" class="form-control">
+                <button class="btn btn-info" type="button">
+                  <i class="bi-search">search</i>
+                </button>
+              </div>
+            </form>
+          </div>
+      </div>
+    </div>
+  </section>
+  
+
+
+
+
+
+  <section class="row">
+    <div class="col-md-12">
+        <div class="carousel slide" id="mycarousel" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="2000">
+                    <img src="images/image1.jpeg" alt="" class="d-block w-100 image-fluid" style="max-height: 100vh;">
+                    <div class="carousel-caption">
+                      <b>Progress isn't measured by perfection but by persistance.</b><br><br>
+                      <b>The gym is where limits are tested and new ones are created</b>
+                    </div>
+                </div>
+                
+                <div class="carousel-item">
+                    <img src="images/image2.jpg" alt="" class="d-block w-100 image-fluid" style="max-height: 100vh;">
+                    <div class="carousel-caption">
+                      <b>The hardest lift is lifting yourself off the couch. The rest is just momentum.</b><br><br>
+                      <b>Stop wishing. Start lifting</b>
+                    </div>
+                </div>
+                
+                <div class="carousel-item" >
+                    <img src="images/image3.jpg" alt="" class="d-block w-100 image-fluid" style="max-height: 100vh;">
+                    <div class="carousel-caption">
+                      <b>You don't have to be the best- just better than you were yesterday.</b><br><br>
+                      <b>Every drop of sweat is a step closer to your strongest self</b>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img src="images/image4.jpg" alt="" class="d-block w-100 image-fluid" style="max-height: 100vh;">
+                    <div class="carousel-caption">
+                      <b>The gym is not just a place; it's a mindset of discipline, growth, and transformation.</b><br><br>
+                      <b>Sweat. Sacrifice.Succeed</b>
+                    </div>
+                </div>
+            </div>
+
+            <a href="#mycarousel" class="carousel-control-prev" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon bg-primary"></span>
+            </a>
+            <a href="#mycarousel" class="carousel-control-next" data-bs-slide="next">
+                <span class="carousel-control-next-icon bg-primary"></span>
+            </a>
+
+            <ol class="carousel-indicators" style="border-radius: 50%;">
+                <li data-bs-target="#mycarousel" data-bs-slide-to="0" class="active"></li>
+                <li data-bs-target="#mycarousel" data-bs-slide-to="1"></li>
+                <li data-bs-target="#mycarousel" data-bs-slide-to="2"></li>
+                <li data-bs-target="#mycarousel" data-bs-slide-to="3"></li>
+            </ol>
+        </div>
+    </div>
+  </section>
+
+</div>
+<br><hr><br> 
+  
+<div class="container-fluid">
+
+  <!-- marquee behavior include alternate, slide, and scroll
+   marquee scroll amount, marquee scroll delay -->
+  <h1 style="height: 100PX;font-size: 100px;background-color: rgb(130, 180, 164);">
+    <center><marquee behavior="" direction="" width="800px" scrollamount="30" >WELCOME TO THE TWILIGHT GYM</marquee></center>
+  </h1>
+  <br><br>
+  <center>
+    <p style="font-size: 20px;">A Place Where Results Begin When Comfort Ends. </p>
+    <p style="font-size: 20px;" >Just remember Pain is Temporary, Strength is Forever</p>
+  </center>
+  <br><br>
+  
+  <section class="row">
+    <div class="col-md-6">
+      <div class="card">
+        <div class="card-header text-center"><b>Work For It</b></div>
+        <div class="card-body text-center">
+          <b>Train hard. Stay Strong</b><br>
+          <b>Join us now, Don't waste this time.</b><br>
+          <b>Lets Lift Heavy, Run Fast, Hustle for that muscle and remember Excuses Don't burn calories.</b>
+        </div>
+        <div class="card-footer"></div>
+      </div>
+    </div>
+
+    <div class="col-md-6">
+      <div class="card">
+        <div class="card-header text-center"><b>Become physically fit</b></div>
+        <div class="card-body">
+            <img src="images/animate1.png" width="30%" id="he" alt="" class="image-fluid">
+            <img src="images/animate2.png" width="30%" id="he" alt="" class="image-fluid">
+          <br>
+
+        </div>
+        <div class="card-footer"></div>
+      </div>
+    </div>
+  </section>
+  <br>
+  <br>
+  <br>
+  
+    <section class="row bg-info p-4 text-center">
+      <div class="col-md-4">
+        <h1 style="font-size: 25px;">About us</h1>
+        <p>Welcome to The Twilight Gym where every drop of sweat is a step closer to your strongest self. Everone is welcomed, both genders whether old or young.</p>
+        <p>Click the Activities and programmes for more information</p>
+      </div>
+      <br><br>
+      <div class="col-md-4">
+        <h1 style="font-size: 25px;">Quick Menus</h1>
+        <p><a href="index.html">Home</a></p>
+        <p><a href="#">Activities</a></p>
+        <p><a href="#">Programme</a></p>
+      </div>
+      <br><br>
+      <div class="col-md-4">
+        <h1 style="font-size: 25px;">Stay connected</h1>
+        <p>We are located at Kifaru Street near The Downtown Highway</p>
+        <p>Feel free. Join us now</p>
+      </div>
+    </section>
+</div>
+
+<footer class="text-white bg-dark text-center p-2">
+  <h5>Developed by Maurice Denzel Okuthe &copy;2025. All rights reserved</h5>
+</footer>
+
+
+
+
+
+
+    
+</body>
+</html>
